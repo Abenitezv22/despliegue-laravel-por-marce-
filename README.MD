@@ -244,6 +244,8 @@ Nos interesa poder:
 - Servir la web con NGINX
 - Poder usar Artisan con el usuario de SSH
 
+Para ello vamos a modificar los permisos de los directorios de la aplicación segun esta estrategia:
+
 - El directorio de nuestro proyecto es ```/var/www/ecommerce-laravel.local``` que actualmente es propiedad del usuario ```server``` pero para que todo funcione bien vamos a hacer que el grupo propietario sea  ```www-data```
   - ```sudo chown -R server:www-data /var/www/ecommerce-laravel.local```
 Para que el servidor pueda funcionar necesitamos establecer los permisos correctos a los archivos y directorios:
