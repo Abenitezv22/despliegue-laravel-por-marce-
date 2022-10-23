@@ -8,7 +8,7 @@ Lo primero es hacer el montaje de una máquina virtual con sistema operativo de 
 
 Instalar [Ubuntu Server 22.04 LTS](https://ubuntu.com/download/server) en una máquina virtual.
 
-- 1 core, 1 Giga de RAM debería ser suficiente.
+- 1 core, 1 Giga de RAM (incluso 512mb) debería ser suficiente.
 - Activar el servidor de SSH
 - No instalar ningún snap
 - Recomiendo el nombre de usuario ```server``` y el password ```server```
@@ -267,6 +267,16 @@ Reiniciamos NGINX con la nueva configuración:  ```sudo systemctl restart nginx`
 ## Tareas
 
 - Escribe un comando apt install con todos los paquetes necesarios.
+
+```bash
+sudo apt install ...
+```
+
 - Escribe un documento con las ordenes que se necesitan para hacer todo el trabajo de configuración del servidor, una por una, de forma que puedan ir siendo pegadas en la consola por orden y funcione.
+
+```bash
+
+```
+
 - Localizar en que partes de la guía es importante cambiar ips o nombres de dominio por otros para poder desplegar otros servidores.
 - Desplegar un segundo proyecto de Laravel en la misma máquina virtual.
