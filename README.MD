@@ -268,3 +268,5 @@ Reiniciamos NGINX con la nueva configuración:  ```sudo systemctl restart nginx`
 
 - Escribe un comando apt install con todos los paquetes necesarios.
 - Escribe un documento con las ordenes que se necesitan para hacer todo el trabajo de configuración del servidor, una por una, de forma que puedan ir siendo pegadas en la consola por orden y funcione.
+- Localizar en que partes de la guía es importante cambiar ips o nombres de dominio por otros para poder desplegar otros servidores.
+- Desplegar un segundo proyecto de Laravel en la misma máquina virtual.
